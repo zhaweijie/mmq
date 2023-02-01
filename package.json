@@ -1,0 +1,42 @@
+{
+  "name": "mmq-frontend",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc && vite build",
+    "preview": "vite preview",
+    "lint": "eslint src --fix --ext .ts,.tsx,.vue,.js,.jsx",
+    "prettier": "prettier --write ."
+  },
+  "dependencies": {
+    "naive-ui": "^2.34.3",
+    "stylelint-config-prettier": "^9.0.4",
+    "stylelint-order": "^6.0.1",
+    "vfonts": "^0.0.3",
+    "vue": "^3.2.45",
+    "vue-request": "^2.0.0-rc.4",
+    "vue-router": "4"
+  },
+  "devDependencies": {
+    "@types/node": "^18.11.18",
+    "@typescript-eslint/eslint-plugin": "^5.50.0",
+    "@typescript-eslint/parser": "^5.50.0",
+    "@vitejs/plugin-vue": "^4.0.0",
+    "dart-sass": "^1.25.0",
+    "eslint": "^8.33.0",
+    "eslint-config-prettier": "^8.6.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "eslint-plugin-vue": "^9.9.0",
+    "prettier": "^2.8.3",
+    "sass": "^1.58.0",
+    "sass-loader": "^13.2.0",
+    "stylelint-scss": "^4.3.0",
+    "typescript": "^4.9.3",
+    "vite": "^4.0.0",
+    "vite-plugin-compression": "^0.5.1",
+    "vite-plugin-stylelint": "^4.1.8",
+    "vue-tsc": "^1.0.11"
+  }
+}
